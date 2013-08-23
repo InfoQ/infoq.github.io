@@ -1,23 +1,58 @@
 ---
 layout: page
-title: InfoQ China Writing
-tagline: for editors
+title: InfoQ写作指导
+tagline: ——总览
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+技术写作可以是很简单的事情。
 
-## 帮助文档、常见问题目录
+在InfoQ，我们有一套有关技术写作的指导性文档，帮助新加入的社区编辑、专栏作者更快速的了解如何为InfoQ写作。在这里公开这些文档，希望帮助更多潜在的技术作者快速学习如何进行技术写作。
 
-参与InfoQ编辑团队
+## 入门必读
 
-* [InfoQ编辑核心价值观](http://www.infoq.com/cn/contribute#core_values)
-* [InfoQ中文站社区编辑加盟及升级指南](http://infoqhelp.sinaapp.com/markone/dca045ce8d25998c73c6f5eb5f838c3e) | [试译流程](http://www.infoq.com/cn/news/2013/02/be-a-translator) | [深度文章投稿指南](http://www.infoq.com/cn/news/2012/02/how-to-contribute)
+* [InfoQ编辑核心价值观](editor-core-value.html)
+* [编辑加盟指南](editor-guidelines.html)
+* [投稿指南](article-guidelines.html)
 
-教程与最佳实践
+## 新闻写作
 
-* [翻译流程与最佳实践](http://infoqhelp.sinaapp.com/markone/24e97ddd6e2cd7d886f685f46896db82)
-| [InfoQ通用翻译约定与术语表](http://infoqhelp.sinaapp.com/markone/2983a456897631433d1aaa48827964d4)
-* [原创新闻撰写的最佳实践](http://infoqhelp.sinaapp.com/markone/ca70edfbafbf4d31651537d6bc0dc36c) | [产品类新闻撰写教程](http://infoqhelp.sinaapp.com/markone/60f0357c30945d181f130e8c4403ef63) | [活动类新闻撰写教程](http://infoqhelp.sinaapp.com/markone/65c8537b766e599ddd2821fbb70ea659)
-* [如何建立线索库](http://infoqhelp.sinaapp.com/markone/61cd0837d16dd9fe30f1066f1a7018ae) | [如何采访](http://infoqhelp.sinaapp.com/markone/9c84401ea8004484d8d64bdddd488bba)
+* 新闻撰写的最佳实践
+* 建立新闻线索库
 
+### 纪实类+采访
+
+* 新产品发布纪实
+* 产品发布新版本纪实
+* 战略发布纪实
+* 技术应用状态纪实
+* 线下活动的演讲纪实
+* 事故纪实
+* 新书、新文章、新文档发布纪实
+* 为纪实进行补充的采访
+
+### 二次记录型（讨论、观点整理类）
+
+* 社区对新产品的讨论
+* 社区对产品新版本的讨论
+* 社区对战略发布的讨论
+* 社区对技术应用状态的讨论
+* 社区对活动、会议的讨论
+* 社区对一个事件的讨论
+* 社区对一个话题的讨论
+
+### 阅读列表
+
+* 带有短介绍的阅读列表
+* 不带短介绍的阅读列表
+
+
+## 文章写作
+
+
+
+* 深入介绍一个技术点
+* 比较两个或多个技术点
+* 深入介绍一个概念或方法论的实践案例经验
+* 深入介绍一个项目实施的案例经验
+* 深入介绍一个

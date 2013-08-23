@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : InfoQ中文站写作风格指南
-tagline: for editors
+title : Writing for InfoQ China
+tagline: 
 author :
   name : InfoQ
   email : editors@cn.infoq.com
