@@ -30,6 +30,19 @@ description: ""
 * 微信公众账号 iOS开发 iosDevTips：唐巧维护的账号，收集了不少iOS相关的资源
 * [爱范儿](http://www.ifanr.com/)，[36Kr](http://www.36kr.com/)：从产品报道中，可以挖掘到一些值得跟进的技术线索
 
+## 领域线索推荐：移动开发
+
+* <http://developer.apple.com/news/> 苹果开发者官网的新闻通告，这个是必须看的
+* <http://android-developers.blogspot.com/> Android开发团队官方博客，这个是必须看的
+* <http://www.brucelawson.co.uk/> HTML 5 Bruce Lawson，HTML 5方面不错的信息源，有一个每周的Reading List
+* <http://iosdevelopertips.com/> iOS Developer Tips，有些不错的小技巧
+* <http://mobilephonedevelopment.com/> Mobile Phone Development，这个博主关注不少报告和会议
+* <http://mobile.tutsplus.com/> Mobile Tuts，这里的内容偏入门，有时候也会有有趣的教程
+* <http://gamerboom.com/> 游戏邦，主要关注游戏开发领域。这里的《每日观察》栏目有不少关于应用商店和市场的讯息
+* <http://www.visionmobile.com/> Vision Mobile，他们做的报告很不错
+* <http://techcrunch.com/mobile/> TC的Mobile Crunch专栏，可以了解到很多产品方面的信息
+
+
 ## 如何跟进这些线索
 
 Google Reader之死代表了纯RSS方式跟踪线索模式的衰落。这里推荐一个我目前使用的方法：
