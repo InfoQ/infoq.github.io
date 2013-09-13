@@ -28,7 +28,7 @@ tagline: ——总览
 * [战略发布纪实](news-strategy-announcement.html)
 * [技术应用状态纪实](news-growth-summary.html)
 * [事故纪实](news-failure.html)
-* 新书、新文章、新文档发布纪实
+* [新书、新文章、新文档发布纪实](news-new-book.html)
 * 某人最近说了什么话纪实
 
 ### 二次记录型（讨论、观点整理类）
