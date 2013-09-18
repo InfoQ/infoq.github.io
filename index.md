@@ -50,7 +50,7 @@ tagline: ——总览
 ## 文章写作
 
 * [深入介绍一个技术点](art-feature-description.html)
-* [比较两个或多个技术点](art-feature-comparison.html)
+* [比较两个或多个技术点（技术选型）](art-feature-comparison.html)
 * 深入介绍一个概念或方法论的实践案例经验
 * 深入介绍一个项目实施的案例经验
 * 深入介绍一个项目、团队管理的案例经验
