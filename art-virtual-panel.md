@@ -5,9 +5,24 @@ description: ""
 ---
 {% include JB/setup %}
 
-虚拟座谈会也可理解为同时对多人的采访，几位业内专家针对一系列问题分别进行回复，将他们的回复整合到一起而形成。其运作方式与[深度采访](interview-howto.html)类似，但是由于多人参与，文章呈现的观点会更加多元化。
+虚拟座谈会也可理解为同时对多人的采访，几位业内专家针对一系列问题分别进行回复，将他们的回复整合到一起而形成。
 
 下面以《[虚拟研讨会：如何设计好的RESTful API？](http://www.infoq.com/cn/articles/how-to-design-a-good-restful-api)》为范例介绍本类文章的撰写重点。
+
+##采访阶段
+
+准备问题的过程与[深度采访](interview-howto.html)类似，但是由于多人参与，文章呈现的观点会更加多元化。
+
+###提示
+
+为了获得更加优质的回复，可以以如下步骤进行提问的操作：
+
+1. 跟所有受访人确认加入虚拟座谈会的意愿
+2. 将准备好的问题同时群发给所有受访嘉宾
+3. 提示受访嘉宾在返回问题的时候回复所有人
+
+这样，能够造成peer pressure，受访嘉宾会因为有朋友看到自己的回复而写的更认真：）
+
 
 ##标题
 
@@ -36,3 +51,13 @@ description: ""
 - [虚拟座谈会：PaaS的路由延时问题与架构设计思路](http://www.infoq.com/cn/articles/vpanel-paas-routing-issue)
 - [虚拟座谈会：Oracle和Java的发展](http://www.infoq.com/cn/news/2010/11/oracle-and-java)
 - [虚拟座谈会：RIA和Ajax技术的现状与展望](http://www.infoq.com/cn/articles/ria-panel)
+
+## 非正常情况
+
+有的时候，受访嘉宾的回复可能只有一部分是对我们有用的。
+
+有的时候，尤其是做偏软方向话题的时候，有些嘉宾的回复内容重合度有点高。
+
+总之，我们需要砍掉一些回复，该怎么做？
+
+如果你对领域了解，可以参考这篇文章的做法，对采访内容进行重组，形成文章：[中国IT高管谈创新型组织](http://www.infoq.com/cn/articles/chinese-IT-executives-talk-about-innovative-organization)
