@@ -20,25 +20,6 @@ tagline: ——总览
 * [新闻撰写的最佳实践](news-best-practices.html)
 * [建立新闻线索库](news-clues.html)
 
-### 纪实类
-
-* [线下活动的演讲纪实](news-event-takeaways.html)
-* [新产品发布、版本更新纪实](news-new-product.html)
-* [新鲜有创意的技术项目纪实](news-creative-projects.html)
-* [战略发布纪实](news-strategy-announcement.html)
-* [技术应用状态纪实](news-growth-summary.html)
-* [事故纪实](news-failure.html)
-* [新书、新文章、新文档发布纪实](news-new-book.html)
-* 某人最近说了什么话纪实
-
-### 二次记录型（讨论、观点整理类）
-
-* [社区讨论纪实](news-discussions.html)
-
-### 汇总整理型
-
-* [细分领域的定期阅读列表](news-reading-list.html)
-* 大会值得关注的议程预告
 
 ## 文章写作
 

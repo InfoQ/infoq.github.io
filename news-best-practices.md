@@ -5,133 +5,75 @@ description: ""
 ---
 {% include JB/setup %}
 
-##新闻撰写原则
+
+以下内容部分翻译、整理自InfoQ英文站的新闻撰写指南：
+
+
+##啥是新闻？
+
+对于新编辑而言，分辨“何为新闻”和“什么不是新闻”是最大的难题之一，不过写着写着就好了。
+
+简单来说，新闻就是**新的知识**，我们用千字以内的篇幅将其表述出来。这个新知识是技术社区所关心的。
+
+记住，InfoQ的宗旨是“促进软件开发领域知识与创新的传播”，这是判定一篇新闻是否合适的核心标准。以下是一个简单的checklist：
+
+1. 是不是有变化？
+2. 是不是有创新？
+3. 是不是有不同的思考？
+4. 社区会觉得这个有意思吗？
+
+
+## 新闻的类型
+
+### 纪实类
+
+* [线下活动的演讲纪实](news-event-takeaways.html)
+* [新产品发布、版本更新纪实](news-new-product.html)
+* [新鲜有创意的技术项目纪实](news-creative-projects.html)
+* [战略发布纪实](news-strategy-announcement.html)
+* [技术应用状态纪实](news-growth-summary.html)
+* [事故纪实](news-failure.html)
+* [新书、新文章、新文档发布纪实](news-new-book.html)
+* 某人最近说了什么话纪实
+
+### 二次记录型（讨论、观点整理类）
+
+* [社区讨论纪实](news-discussions.html)
+
+### 汇总整理型
+
+* [细分领域的定期阅读列表](news-reading-list.html)
+* 大会值得关注的议程预告
+
+
+
+
+## 新闻的基本结构
+
+[**![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Inverted_pyramid_2.svg/300px-Inverted_pyramid_2.svg.png)**](http://www.google.com/url?q=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fca%2FInverted_pyramid_2.svg%2F300px-Inverted_pyramid_2.svg.png&sa=D&sntz=1&usg=AFrqEzc2JrEhqCtTK4NZfCu78Ms7dT1ocg)
+
+倒金字塔新闻撰写方式，强调将重要的信息放在前，补充信息放在后。
+
+* 标题：简短、准确，包含新闻中最重要的信息
+* 摘要：这篇新闻如果发140字以内的微博，该怎么写？当然是最能引发观众兴趣的信息
+* 正文：一般千字以内
+	* 第一段：发生了什么事？谁在什么时间什么地点做了什么事
+	* 第二段：这件事是怎么回事，为什么会有这件事
+	* 第三段：相关阅读素材，相关人员对该事件的讨论引用
+	* 第四段：一句话总结
+
+###注意事项
 
 1. 针对素材的引用不得超过原素材内容的30%，并需要明确标注素材来源
 2. 如果是对英文素材的完整翻译，需获取作者授权
-
-##撰写指导
-
-以下内容来自InfoQ英文站的新闻撰写指南：
-
-
-
+3. 一篇新闻只说一件事
+3. 写作中不要使用“我/你/他”等代词，而是以第三方直叙的方式记录
+4. 超链接以暗链形式挂载文字上，文字跟链接地址相关。不要直接放URL到正文中
+5. 超链接不要忘了http(s)://的前缀！
+5. 引用部分使用blockquote的格式
 
 
 
-## What is news?
-Figuring out what is and isn't news is one of the hardest parts of being a news editor and one that will get easier over time.
-
-News is **NEW KNOWLEDGE**, usually expressed concisely in about 500 words.  It's something that your community would want to know about or find useful for their projects, including: new ideas, design techniques, timely debates of importance to the community, strategies of major players in the community, discussions going on in blog space that matter, and even community events like things that happen to well known figures (e.g., Joshua Bloch leaves Sun to Join Google, [Castle Project Founder Joins Microsoft](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F07%2FCastle-Hammett-Microsoft&sa=D&sntz=1&usg=AFrqEzejTG3sWk-zQDzHdswffP1a69C0cg)).
-
-Ensure news on InfoQ should be in keeping with the site’s purpose: “Facilitating the spread of knowledge and innovation in enterprise software development.” This has very important implications for how we decide what is newsworthy or not. The item should qualify under one of the three criteria:  
-
-
-
-1. **Change**: Will this change how we work? Or is it part of an important _macro trend _that is changing things in our community?
-1. **Innovation**: A new technique, tool, or process  that is something our community should know about and plan for in their next project.
-1. **Emergent ideas:** these may not have reached the concrete "innovation" stage, but sometimes "the next thing" comes out of a discussion or argument online. Readers really appreciate [a pointer to](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FDiscussion-Decide-Late-as-Poss&sa=D&sntz=1&usg=AFrqEzcjCZPCTsThIxWr8iMEUwuRkWb8sQ) or [a summary of](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FDiscussion-on-Scrum-Requirements&sa=D&sntz=1&usg=AFrqEzekLMQKm19Aoy5d59AAKS8LGpV4UA) a meaty blog/newsgroup discussion thread. This helps spread ideas through the community and garners input in the early stages (positive and negative).  
-
-
-All of this feedback shoudl be taken in the context of your target audience.  What would they find interesting? What do you find interesting?  
-
-## Types of news
-This section presents various types of news with links to examples which are meant to be case studies.
-
-
-1. Cross Blog/Group Debates. Covers debates carried on one or multiple blogs on topics of great interest.   
-
-
-    * [Debate: The Future of WS-BPEL](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FWS-BPEL-2.0-debate&sa=D&sntz=1&usg=AFrqEzcPoQ3nMv7In7_QOjlwSVAMr4krJQ)
-    * [OSGi and JSR 277 Debate Continues to Grow](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F08%2Fosgi-jsr277-debate&sa=D&sntz=1&usg=AFrqEzdC13C7TY7W5op_1wxK4L9a48JciA)  
-
-
-    * New Ideas/Memes. About new and great ideas that may not be materialized yet as a product. []](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F09%2Faspects-annotations&sa=D&sntz=1&usg=AFrqEzfRUR5XYiP3MTbG-k9NjdtBpWKKhA)
-
-    * [Aspects: An Easy Tool for Annotation Handling?](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F09%2Faspects-annotations&sa=D&sntz=1&usg=AFrqEzfRUR5XYiP3MTbG-k9NjdtBpWKKhA)
-    * [Richard Monson-Haefel: It's Too Late to Save Java EE](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FJava-EE-Demise-Report&sa=D&sntz=1&usg=AFrqEzdWY2P6JQ5OObVWFDUlMEPD8tiacA)
-    * [JSR 303: Time to Standardize Validation](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FJSR303-validation-standard&sa=D&sntz=1&usg=AFrqEzdis2mtYNB5dpvKyNHIQBerR8-nlA)
-    * [Spring Overtakes EJB as a Skills Requirement?](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F02%2Fejb-spring-job-listings-trends&sa=D&sntz=1&usg=AFrqEzfGcDzm9avqcdoAaId-p7yXOB5D5Q)
-
-        * **Industry Updates / catching the reader up with a fast moving / important trend**
-
-    * [OSGi in the Enterprise Update](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F11%2Fosgi-in-the-enterprise&sa=D&sntz=1&usg=AFrqEzfIaOZrciJq19hfDc7VB76lHKJNUA)  
-
-
-            * Conference news coverage  
-
-    * [JavaOne 2008 Day 1 - JavaFX, OSGi, and Android Smoke and Mirrors](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F05%2Fjavaone08day1&sa=D&sntz=1&usg=AFrqEzfOp4F5CcsUa8-axZULFS6N-N_jAw)
-    * [Detailed JavaOne Coverage Published](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2FDetailed-Java-One-Coverage-Publi&sa=D&sntz=1&usg=AFrqEzc3qY52Fbm2aae8HpojmTeWXQMY4A)
-
-  
-
-            * Industry/Market/People's Reaction to a Certain Event. Collect/analyze reaction to a major event.  
-
-    * [Google Gears: Industry Reactions The Day After](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F06%2Fgooglegears&sa=D&sntz=1&usg=AFrqEzdTzKYiYpd6oF40M5VPom6IQKGsew)
-    * [Google Chrome: Perspectives and Analysis](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F09%2Fgoogle-chrome-perspectives&sa=D&sntz=1&usg=AFrqEzeuETm6GLpsZ4PWOUCV-LEIWHJKEg)
-
-  
-
-            * Product Releases.  Cover a release if either the product (or people behind it) is widely popular or if the upgrade has important innovations that are pushing the whole market forward / filling a gap you know to be important to your community.
-    * [Scott Guthrie Announces ASP.NET MVC Framework at the ALT.NET Conference](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F10%2Faltnet_mvc&sa=D&sntz=1&usg=AFrqEzeKAzXU8SQkuV62URNHzw_wrJmzEQ)
-    * [Interface21 and Tasktop Discuss The Upcoming Spring Tool Suit](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F10%2Fspring-tool-suite&sa=D&sntz=1&usg=AFrqEzdPMSPFAu8MPL6-kYu-0IoeUYAFXA)
-
-
-    * [GlassFish V2 Brings Clustering, Administration, and Speed Enhancements](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F09%2FglassfishV2&sa=D&sntz=1&usg=AFrqEze3NBXx4F58egKtgEIXuosAiGGxxA)
-    * [CodeGear Releases Ruby/Rails IDE with Intelligent Completion of Dynamic Methods](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F09%2F3rdRail&sa=D&sntz=1&usg=AFrqEzf_zeZGJEgWzziCcBD3TtZ6iBIQaA)
-
-  
-
-            * **Community-specific People/Activities. ** News that is not typically news but is something that people in your community might especially care about.  
-
-    * [Announcement: Agile Journal Making Big Changes](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F09%2Fagile-journal-new-EiC&sa=D&sntz=1&usg=AFrqEzc_vdtMz-8pH0T5ql98c2YwpNC1nA)
-    * [Gordon Pask Award Recipients Announced](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F08%2F2007-pask-awards&sa=D&sntz=1&usg=AFrqEzdxCRnKMGlCGaNXc5df7CTSi-G7Fw)
-
-  
-
-            * **New Developments with Important Players/Companies.  **News specific to particular companies or people that have important change/innovation relevance.  
-
-    * [SpringSource Announces Commercial Software Strategy, Spring Integration](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2007%2F12%2Fspringsource-support&sa=D&sntz=1&usg=AFrqEzeOuwGtimB1IUkS8aVbrBCjU20Txg)
-    * [Adobe contributes AMF support to Zend Framework](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F09%2Fflex-zend-framework&sa=D&sntz=1&usg=AFrqEzczoW66k7HcXDbRGlfHyf3xiqKtZA)
-
-
-
-
-## Structure and basic requirements of a news item
-
-1. A news item is made up of:
-
-    * **Title **- a very short summary of the news; consider that most people scanning RSS or newsletters will ONLY read the title, so an effective title is should contain the key facts and NOT be written as a vague teaser.
-    * **Summary (Introductory paragraph) **-  A well written summary can double as the first paragraph in your body. It should communicate the key facts presented in the body, it is not a teaser.
-    * **Body **- Average 500 words.  The body should open with the "lead" sentence (see below). A news body should give enough details for a developer to feel satisfied that they already have the key points of the story. The aim is to save time and deliver knowledge efficiently. Those who area really passionate about the  topic can click through to read more from your sources. A news item should not end with a bulleted list or a quoted paragraph (odd aesthetic). 
-
-    * Lead and Structure  [http://en.wikipedia.org/wiki/News_style](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNews_style&sa=D&sntz=1&usg=AFrqEzeItGRY6F2seE_mFG9Pny6xuA9dfw) 
-[**![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Inverted_pyramid_2.svg/300px-Inverted_pyramid_2.svg.png)**](http://www.google.com/url?q=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fca%2FInverted_pyramid_2.svg%2F300px-Inverted_pyramid_2.svg.png&sa=D&sntz=1&usg=AFrqEzc2JrEhqCtTK4NZfCu78Ms7dT1ocg)
-
-
-    * The first sentence or two of an article should define the "lead": It is not an essay-like introduction.'. [Do not bury the lead](http://www.google.com/url?q=http%3A%2F%2Fbloggingforbusinessbook.com%2Fblogging_for_business%2F2007%2F02%2Fdont_bury_the_l.html&sa=D&sntz=1&usg=AFrqEzeM4lcSN4KwnHuJZCLvhllcoYHlbQ).
-    * A lead should disclose what the story is about, not place the story in a context or background. It answers the question "What new happened?" not "What is the story about?
-    * Following the lead, write news in [inverted pyramid structure](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInverted_pyramid&sa=D&sntz=1&usg=AFrqEzdL6zFTpipa6l56abNERiLHeMJD9g):  each paragraph is more crucial than the one that follows it. According to the inverted pyramid, a lead should be able to stand on its own and tell the story with no more text following.
-
-        * Do not use I/me/you, news must be written in a neutral fashion (helpful to think as a [narrator](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNarrator&sa=D&sntz=1&usg=AFrqEzemo5GJE0DI-uDvFsnat0tIvZ2sXA)).
-        * **Use ****[Title Case](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTitle_case%23Headings_and_publication_titles&sa=D&sntz=1&usg=AFrqEzciAK4glPw0xYReWG3hiRx5xwV-Eg)** for titles: "The Vitamins Are in My Fresh California Raisins" - capitalization of all words, except for internal [articles](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FArticle_%2528grammar%2529&sa=D&sntz=1&usg=AFrqEzeKChz_RVsr-c7G61bbRymiQF0WLg), [prepositions](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPreposition&sa=D&sntz=1&usg=AFrqEzccL8IwiCxAJ5Nif17jZhuQHEqX3g) and [conjunctions](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGrammatical_conjunction&sa=D&sntz=1&usg=AFrqEzeE4eYBa18lPU2NZXjxmTvFs-vdlQ).
-        * **Use subtle linking**.   
-
-
-    1. Link the 'idea' instead of the mentioning the medium (blog, podcast, etc)
-    1. Use: "An interesting Wikipedia [article about airplanes](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFixed-wing_aircraft&sa=D&sntz=1&usg=AFrqEzc7cTNlNy5SCmSL2bHD717E_uF6TQ) describes ..." instead of: "An interesting Wikipedia article about airplanes that can be found [here](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFixed-wing_aircraft&sa=D&sntz=1&usg=AFrqEzc7cTNlNy5SCmSL2bHD717E_uF6TQ) instead of "John Doe discussed on his blog about Test Driven Design.", use "John Doe discussed Test Driven Design."
-
-            1. Try to maintain a **neutral point of view** when writing about a topic that's debated in the community. Don't take sides in a debate.
-            1. Keep it **marketing free.**
-            1. Use HTML **blockquote** when quoting whole paragraphs, and **pre** when posting code.
-            1. The URL name introduced in CMS tool should follow the rule: Some-Topic-Etc. If it is for a content item (article, interview, presentation), then it should be: Some-Topic-FirstName-LastName, where FirstName and LastName are the name of the author of the article/presentation, or the person interviewed describes ..."
-
-The main function of the news committer is to **add context **to a news item. It's not enough to simply say in one paragraph that 'something happened'. You should say that it happened, provide additional information about it, weave information that you have seen about it to add depth and volume to the news item.**  
-**
-
-**Answer the first 3 questions your peer might ask**. When writing a news item, consider what would the most obvious questions about a news item that one of your peers would have and make sure that you have addressed them in your news item. For example, if commenting on a new product release, you should always have a list of what the major new features are since that's clearly an obvious first question that a developer would have. Here's [a good example](http://www.google.com/url?q=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2008%2F06%2FSQL-Server-2008-RC0&sa=D&sntz=1&usg=AFrqEzemNgzIm-8YlAlklKOpYjcXg0gmNA) of that.
-
-News on InfoQ should concisely summarize all the key points about the subject of the news post that a senior technical person would want to know about.   
 
 
 
