@@ -68,8 +68,9 @@ description: ""
 2. 如果是对英文素材的完整翻译，需获取作者授权
 3. 一篇新闻只说一件事
 3. 写作中不要使用“我/你/他”等代词，而是以第三方直叙的方式记录
-4. 超链接以暗链形式挂载文字上，文字跟链接地址相关。不要直接放URL到正文中
+4. 超链接以暗链形式挂在文字上，文字跟链接地址相关。不要直接放URL到正文中
 5. 超链接不要忘了http(s)://的前缀！
+6. 同样的超链接不要重复添加，一篇新闻中添加一次即可
 5. 引用部分使用blockquote的格式
 
 
@@ -229,61 +230,4 @@ A common best practice in the media is to write titles and summaries that are te
 
   
 
-
-
-## Reporting on conferences or events
-In general every news post should be educational, or contain ‘knowledge’. So people are much more interested in what might have been learned at an event rather than the event itself. Therefore we don’t generally announce that events happened and what it was like because such posts don’t actually give the reader any useful/actionable knowledge, and may infact leave them feeling sorry they missed it. Instead, we report on useful change/innovation from the event, giving people the benefit of learning without having attended. See all the news from Java One at http://www.infoq.com/javaone, note that it covers actual knowledge/news from the event, as opposed to the event itself.
-
-  
-
-
-
-## Guidelines for links in a news post
-  
-
-1. Do not link to the same URL multiple times, especially in a short news report.
-
-2. Do not link to words like "annouced" or "blog post". Consider this line:
-
- 
-
-a recently announced Undo-Redo framework from Infragistics (CTP) and an open source library called Undo.
-
- 
-
-The link should go here:
-
- 
-
-
-a recently announced Undo-Redo framework from Infragistics (CTP) and an open source library called Undo.
- 
-
- Another example,
-
- 
-
-This is where undo frameworks can help. The framework from Infragistics provides several features as outlined in their blog post.
-
- 
-
-This is where undo frameworks can help. The framework from Infragistics provides several features as outlined in their blog post.
-
- 
-
-3. If you say "xxx's blog post" instead of just "blog post" that's ok. But really I would prefer to avoid the word "blog" when talking unless talking about the blog itself.
-
- 
-
-You can learn more about this framework in Kirill’s blog post and in the project documentation.
-
-You can learn more about this framework in Kirill’s article and in the project documentation.
-
- 
-
-This isn't a hard and fast rule, but the word "blog" still invokes the image of someone's personal journal or informal writing in many people
-
- 
-
-4. Check your links! I can't stress how easy it is to accidentally include a bad hyperlink.
 
